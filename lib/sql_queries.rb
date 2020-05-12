@@ -13,7 +13,7 @@ end
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
   "SELECT name, age
    FROM bears 
-   WHERE (gender='F');"
+   WHERE (alive=2);"
 end
 end
 
